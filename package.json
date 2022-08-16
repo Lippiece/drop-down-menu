@@ -1,7 +1,7 @@
 {
 	"name": "@adipiscing/drop-down-menu",
 	"type": "module",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"scripts": {
 		"setup": "mkdir src dist && cd src && mkdir main && cd main && touch script.js && cd ../.. && touch webpack.config.js .gitignore && npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin style-loader css-loader @emotion/css",
 		"build": "webpack --watch",
@@ -11,6 +11,10 @@
 	"keywords": [],
 	"author": "lippiece",
 	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Lippiece/drop-down-menu"
+	},
 	"devDependencies": {
 		"css-loader": "^6.7.1",
 		"html-webpack-plugin": "^5.5.0",
