@@ -1,0 +1,25 @@
+{
+	"docwriter.progress.trackFunctions": true,
+	"docwriter.progress.trackMethods": true,
+	"docwriter.style": "Auto-detect",
+	"docwriter.progress.trackClasses": true,
+	"docwriter.progress.trackTypes": true,
+	"todo-tree.tree.scanMode": "open files",
+	"workbench.colorCustomizations": {
+		"editor.lineHighlightBackground": "#1073cf2d",
+		"editor.lineHighlightBorder": "#9fced11f",
+		"editorError.foreground": "#ff000088",
+		"editorWarning.foreground": "#ffe60033",
+		"editorInfo.foreground": "#00ff0088",
+		"[*Dark*]": {
+			"progressBar.background": "#0D9373",
+			"notificationsInfoIcon.foreground": "#0D9373",
+			"editor.selectionBackground": "#0D937333"
+		},
+		"[*Light*]": {
+			"progressBar.background": "#0D9373",
+			"notificationsInfoIcon.foreground": "#0D9373",
+			"editor.selectionBackground": "#0D937333"
+		}
+	}
+}
