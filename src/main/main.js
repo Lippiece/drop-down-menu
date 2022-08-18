@@ -18,18 +18,8 @@ Element.prototype.addStyles = function( styles )
 
 	return this;
 };
-const _content              = document.querySelector( "#content" ),
-	mainColor = css( { color: "hsla(15, 100%, 60%, 0.7)" } ),
-	bodyStyle = css( {
-		backgroundColor: "#222",
-		height         : "100vh",
-		width          : "100vw",
-	} ),
-	_body = document.querySelector( "body" )
-		.addStyles( [bodyStyle, mainColor, "tk-rubik"] ),
-	main = document.querySelector( "main" );
+const mainColor             = css( { color: "hsla(15, 100%, 60%, 0.7)" } );
 
-initializeDropdown( main );
 function addButtonLogic( dropdown )
 {
 	const open = css( { visibility: "initial" } ),

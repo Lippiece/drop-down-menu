@@ -1,9 +1,9 @@
 {
 	"name": "@adipiscing/drop-down-menu",
 	"type": "module",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"scripts": {
-		"setup": "mkdir src dist && cd src && mkdir main && cd main && touch script.js && cd ../.. && touch webpack.config.js .gitignore && npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin style-loader css-loader @emotion/css",
+		"setup": "mkdir src dist && cd src && mkdir main && cd main && touch main.js && cd ../.. && touch webpack.config.js .gitignore && npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin style-loader css-loader @emotion/css",
 		"build": "webpack --watch",
 		"start": "webpack-dev-server",
 		"push-dist": "git subtree push --prefix dist origin gh-pages"
